@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFClient", "WPFClient\WPFClient.csproj", "{7851A37D-EC54-475D-8A5C-B68AF9D73E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6B099B0F-83BA-4C83-AB1F-E6BAC3578E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServices", "DomainServices\DomainServices.csproj", "{D5AEAFAA-FD73-45D7-AEC8-7181BF90766F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{BFBDD3DA-FF33-4DDC-8011-1E81F5CC6BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappers", "Mappers\Mappers.csproj", "{FF0FD539-E027-4672-810F-6CBF0079D81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFObjects", "WPFObjects\WPFObjects.csproj", "{DAAE8B46-23FB-455D-AD69-460B74186F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7851A37D-EC54-475D-8A5C-B68AF9D73E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7851A37D-EC54-475D-8A5C-B68AF9D73E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7851A37D-EC54-475D-8A5C-B68AF9D73E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7851A37D-EC54-475D-8A5C-B68AF9D73E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B099B0F-83BA-4C83-AB1F-E6BAC3578E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B099B0F-83BA-4C83-AB1F-E6BAC3578E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B099B0F-83BA-4C83-AB1F-E6BAC3578E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B099B0F-83BA-4C83-AB1F-E6BAC3578E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AEAFAA-FD73-45D7-AEC8-7181BF90766F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AEAFAA-FD73-45D7-AEC8-7181BF90766F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AEAFAA-FD73-45D7-AEC8-7181BF90766F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AEAFAA-FD73-45D7-AEC8-7181BF90766F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBDD3DA-FF33-4DDC-8011-1E81F5CC6BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBDD3DA-FF33-4DDC-8011-1E81F5CC6BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBDD3DA-FF33-4DDC-8011-1E81F5CC6BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBDD3DA-FF33-4DDC-8011-1E81F5CC6BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0FD539-E027-4672-810F-6CBF0079D81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0FD539-E027-4672-810F-6CBF0079D81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0FD539-E027-4672-810F-6CBF0079D81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0FD539-E027-4672-810F-6CBF0079D81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAE8B46-23FB-455D-AD69-460B74186F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAE8B46-23FB-455D-AD69-460B74186F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAE8B46-23FB-455D-AD69-460B74186F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAE8B46-23FB-455D-AD69-460B74186F45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
